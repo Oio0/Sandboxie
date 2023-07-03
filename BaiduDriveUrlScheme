@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\baiduyunguanjia]
+@="baiduyun"
+"URL Protocol"="WalterlvProtocol"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\baiduyunguanjia\Shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\baiduyunguanjia\Shell\Open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\baiduyunguanjia\Shell\Open\Command]
+@="\"C:\\Program Files\\Sandboxie\\Start.exe\" /box:DefaultBox %1"
